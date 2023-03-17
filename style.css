@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); 
+
+.backgrd{
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url('https://source.unsplash.com/random/?time');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color:aliceblue;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:'Poppins', sans-serif;
+    padding-top: 50px;
+}
+
+#end-date{
+    margin-top: 10px;
+    color: aqua;
+}
+
+.col{
+    height: 200px;
+    width: 700px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+input{
+    height: 50px;
+    width: 70px;
+    display: block;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#colid{
+  width: 60%;
+  height: 60%;
+  margin-top: 5%;
+}
+
+.colclass{
+    display: none;
+}
