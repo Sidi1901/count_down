@@ -10,4 +10,4 @@ This application display count down when a desired date is specified. When the t
 Check out the demo below,
 https://sidi1901.github.io/count_down/
 
-For changing the final date, go yo app.js and modify the end date.
+For changing the final end date, go to app.js and modify the end date.
